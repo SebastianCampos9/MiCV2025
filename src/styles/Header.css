@@ -1,0 +1,38 @@
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con algo de transparencia */
+  color: white;
+  display: flex; /* Usamos Flexbox para alinear imagen y título */
+  align-items: center; /* Centra verticalmente la imagen y el título */
+  justify-content: center; /* Alinea todo en el centro del header */
+  padding: 20px;
+  width: 100%; /* Asegura que el header ocupe todo el ancho de la pantalla */
+  box-sizing: border-box;
+  border-bottom: 3px solid #ffffff; /* Línea blanca debajo del header */
+}
+
+.main-title {
+  color: #bebcbc;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase; /* Títulos en mayúsculas para darles un toque moderno */
+  letter-spacing: 1px; /* Espaciado entre letras para los subtítulos */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+  border-radius: 50%; /* Imagen circular */
+  width: 80px; /* Ajusta el tamaño de la imagen */
+  height: 80px; /* Ajusta el tamaño de la imagen */
+  object-fit: cover; /* Asegura que la imagen no se distorsione */
+  margin-right: 15px; /* Espacio entre la imagen y el título */
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0; /* Elimina el margen alrededor del título */
+  font-weight: 700; /* Fuente más pesada para el título */
+  text-transform: uppercase; /* Poner el título en mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras para mayor estilo */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

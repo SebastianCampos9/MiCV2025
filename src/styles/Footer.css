@@ -1,0 +1,11 @@
+/* Estilos para el footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+  font-size: 1rem;
+  background-color: #f4f4f4;
+  margin-top: 40px;
+  width: 100%; /* Asegura que el footer ocupe todo el ancho */
+  box-sizing: border-box;
+}

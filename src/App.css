@@ -1,0 +1,153 @@
+/* src/App.css */
+
+/* Aseguramos que el body y el html ocupen todo el alto y ancho de la pantalla */
+html, body {
+  height: 100%; /* Ocupa toda la altura de la pantalla */
+  margin: 0;    /* Elimina los márgenes por defecto */
+  padding: 0;   /* Elimina el padding por defecto */
+  font-family: 'Roboto', sans-serif; /* Fuente moderna y legible */
+  background: linear-gradient(135deg, #2f65da 0%, #94bce9 100%); /* Fondo con un gradiente bonito */
+  color: #000000; /* Color de texto blanco */
+}
+
+/* Header con imagen y título */
+header {
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con algo de transparencia */
+  color: white;
+  display: flex; /* Usamos Flexbox para alinear elementos */
+  align-items: center; /* Centra verticalmente */
+  justify-content: space-between; /* Espacia los elementos entre los extremos */
+  padding: 10px 20px;
+  width: 100%; /* Asegura que el header ocupe todo el ancho de la pantalla */
+  box-sizing: border-box;
+  border-bottom: 3px solid #ffffff; /* Línea blanca debajo del header */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-img {
+  border-radius: 50%; /* Imagen circular */
+  width: 50px; /* Tamaño reducido */
+  height: 50px; /* Tamaño reducido */
+  object-fit: cover; /* Asegura que la imagen no se distorsione */
+  margin-right: 10px; /* Espacio entre la imagen y el título */
+}
+
+.main-title {
+  color: #bebcbc;
+  font-size: 1.5rem; /* Tamaño reducido */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-icon {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.contact-icon:hover {
+  color: #2575fc;
+}
+
+/* Secciones (contenido) */
+section {
+  padding: 30px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1100px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center;
+}
+
+section:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  color: #520606;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+ul li:hover {
+  color: #2575fc;
+}
+
+a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #6a11cb;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+  font-size: 1rem;
+  background-color: #f4f4f4;
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-button {
+  background: linear-gradient(135deg, #0073e6, #005bb5);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.contact-button:hover {
+  background: linear-gradient(135deg, #005bb5, #003d99);
+  transform: scale(1.05);
+}
+
+.contact-button:active {
+  transform: scale(0.98);
+}
+
+.contact-button:focus {
+  outline: none;
+}

@@ -1,0 +1,26 @@
+
+/* Estilos para los botones del contacto */
+.contact-button {
+  background: linear-gradient(135deg, #0073e6, #005bb5);
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.contact-button:hover {
+  background: linear-gradient(135deg, #005bb5, #003d99);
+  transform: scale(1.05);
+}
+
+.contact-button:active {
+  transform: scale(0.98);
+}
+
+.contact-button:focus {
+  outline: none;
+}

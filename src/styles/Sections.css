@@ -1,0 +1,58 @@
+section {
+  padding: 30px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+  width: 90%; /* Asegura que las secciones no ocupen todo el ancho */
+  max-width: 1100px; /* Limita el tamaño máximo para que se vea bien en pantallas grandes */
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover para las secciones */
+section:hover {
+  transform: translateY(-10px); /* Eleva la sección al pasar el ratón */
+  box-shadow: 0 7px 5px rgba(0, 0, 0, 0.4); /* Aumenta la sombra para que se note más */
+}
+
+/* Estilo de los títulos dentro de las secciones */
+h2 {
+  color: #520606;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase; /* Títulos en mayúsculas para darles un toque moderno */
+  letter-spacing: 1px; /* Espaciado entre letras para los subtítulos */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilo de las listas */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #555; /* Texto más suave */
+  transition: color 0.3s ease;
+}
+
+/* Hover sobre los elementos de la lista */
+ul li:hover {
+  color: #2575fc; /* Cambia el color de la lista cuando pasa el ratón */
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #2575fc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #6a11cb; /* Cambia el color del enlace cuando pasa el ratón */
+}
