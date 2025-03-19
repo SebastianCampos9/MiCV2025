@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <div className="header-left">
         <img src={foto} alt="Foto del curriculum vitae" className="header-img" />
-        <h2 className="main-title">Sebastian Campos</h2>
+        <h2 className="titulo" >Sebastian Campos</h2>
       </div>
       <div className="header-right">
         <a href="mailto:sebacampos1996@gmail.com" className="contact-icon">

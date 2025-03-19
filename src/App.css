@@ -1,11 +1,10 @@
-/* src/App.css */
+
 
 /* Aseguramos que el body y el html ocupen todo el alto y ancho de la pantalla */
 html, body {
   height: 100%; /* Ocupa toda la altura de la pantalla */
   margin: 0;    /* Elimina los márgenes por defecto */
-  padding: 0;   /* Elimina el padding por defecto */
-  font-family: 'Roboto', sans-serif; /* Fuente moderna y legible */
+  padding: 0;   /* Elimina el padding por defecto */ 
   background: linear-gradient(135deg, #2f65da 0%, #94bce9 100%); /* Fondo con un gradiente bonito */
   color: #000000; /* Color de texto blanco */
 }
@@ -36,13 +35,13 @@ header {
   margin-right: 10px; /* Espacio entre la imagen y el título */
 }
 
-.main-title {
-  color: #bebcbc;
+header .titulo {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
   font-size: 1.5rem; /* Tamaño reducido */
-  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-right {
@@ -81,12 +80,17 @@ section:hover {
 
 h2 {
   color: #520606;
-  font-size: 2rem;
+  font-size: 27px;
   margin-bottom: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+   font-family: "Montserrat", sans-serif;
+   font-size: 1rem;
 }
 
 ul {
